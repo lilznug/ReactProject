@@ -4,7 +4,7 @@ import Image1 from '/1667485764269.jpg'
 
 const Navbar = () => {
   return (
-    <div className="mt-10 ml-10 mr-10 sticky top-4 flex justify-center">
+    <div className="mt-10 ml-10 mr-10 sticky z-50 top-4 flex justify-center">
         <nav className="bg-black flex rounded-full px-13 outline outline-white font-bold ">
             <div className="bg-white flex rounded-full px-1 py-1">
                 <img src={Image1} className=" flex w-6 h-6 rounded-full  ml-0 mr-1" />
