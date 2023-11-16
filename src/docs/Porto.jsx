@@ -16,9 +16,6 @@ const Porto = () =>{
     return(
         <div className='w-auto h-auto mx-5 mt-10'>
             <h1 className='text-red-500'>hello world</h1>
-            {/* {isi.map = () => {
-               return <Card key={isi.id} name={isi.name} data ={isi.data} img={isi.image}  link={isi.link}/>
-            }} */}
             <div className="grid grid-cols-4 gap-4">
             {
                 isi.map((isi) => {
